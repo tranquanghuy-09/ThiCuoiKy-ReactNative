@@ -1,2 +1,1 @@
-# ThiCuoiKy-ReactNative
-ThiCuoiKy-ReactNative
+# Chọn điện thoại Oneplus Nor 2 nhé!

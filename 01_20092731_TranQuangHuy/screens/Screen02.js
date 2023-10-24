@@ -89,7 +89,7 @@ export default function App() {
                     style={{marginLeft: 180}}
                 />
                 <Image source={require('../assets/data/anhthe.jpg')}
-                    style={{ width: 40, height: 40, borderRadius: "50%", marginLeft: 20}}
+                    style={{ width: 40, height: 40, borderRadius: "50%", marginLeft: 10}}
                 />
             </View>
             <View style={styles.style1}>
@@ -130,6 +130,7 @@ export default function App() {
                 <View style={{
                     flexDirection: 'row',
                     justifyContent: 'space-between',
+                    marginHorizontal: 10,
                 }}>
                     <Text style={{
                         fontSize: 25,
@@ -384,15 +385,6 @@ export default function App() {
                 }}
                     resizeMode='contain'
                 />
-            </View>
-            <View style={styles.style4}>
-            <TouchableOpacity style={{
-                    marginTop: 20,
-                }}
-                onPress={handleAddNewProduct}
-                >
-                    <Text style={{ fontSize: 25 }}>Thêm sản phầm mới</Text>
-                </TouchableOpacity>
             </View>
         </ScrollView>
     );
